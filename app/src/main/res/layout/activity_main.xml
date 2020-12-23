@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="80dp"
+        android:background="#583d72"
+        android:text="Grade calculator"
+        android:textAlignment="center"
+        android:textColor="#F4EFEF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/quizes"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:background="#9F5F80"
+        android:ems="10"
+        android:inputType="number"
+        android:text=" Quizes 15%"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/HW"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:background="#9F5F80"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Homework 25%"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/mid"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:background="#9F5F80"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Midterms 30%"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/finall"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:background="#9F5F80"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Final 30%"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:background="#00000F"
+        android:text="Calculate"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="129dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:text="    Results"
+        android:textColor="#583D72"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/calculated"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:backgroundTint="#673AB7"
+        android:text="Reset"
+        android:textSize="18sp" />
+
+</LinearLayout>
