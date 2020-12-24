@@ -52,24 +52,25 @@ public class MainActivity extends AppCompatActivity {
                 double res= q+H+mid+fin;
                 if (res>=90 && res<=100){
                     n.setText("A");
-                    n.setTextColor(Color.BLUE);
+                    n.setTextColor(Color.GREEN);
                 }
                 else if(res>=80 && res<90){
                     n.setText("B");
-
+                    n.setTextColor(Color.BLUE);
 
                 }
                 else if(res>=70 && res<80){
                     n.setText("C");
+                    n.setTextColor(Color.CYAN);
 
                 }
                 else if(res>=60 && res<70){
                     n.setText("D");
-
+                    n.setTextColor(Color.YELLOW);
                 }
                 else if(res<60){
                     n.setText("F");
-
+                    n.setTextColor(Color.RED);
                 }
 
             }

@@ -81,15 +81,16 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="150dp"
         android:background="#00000F"
+        android:backgroundTint="#9C27B0"
         android:text="Calculate"
         android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="129dp"
-        android:layout_height="53dp"
-        android:layout_marginLeft="150dp"
+        android:layout_width="123dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="160dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="150dp"
         android:text="    Results"
@@ -103,15 +104,17 @@
         android:layout_height="48dp"
         android:layout_marginLeft="170dp"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="150dp" />
+        android:layout_marginRight="150dp"
+        android:textAlignment="center"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/reset"
-        android:layout_width="match_parent"
+        android:layout_width="103dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="170dp"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="150dp"
+        android:layout_marginRight="160dp"
         android:backgroundTint="#673AB7"
         android:text="Reset"
         android:textSize="18sp" />
